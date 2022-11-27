@@ -1,10 +1,15 @@
 body {
-  padding: 16px 32px;
+  padding: 20px 32px;
+}
+
+a {
+  color: deeppink;
 }
 
 h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  background-color: aqua;
 }
 
 p {
@@ -16,7 +21,7 @@ aside p:last-of-type {
   margin-bottom: 0;
 }
 
-aside {
+.pinkbox {
   background: peachpuff;
   border: 2px solid;
   padding: 16px;
