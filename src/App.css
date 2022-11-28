@@ -2,14 +2,22 @@ body {
   padding: 20px 32px;
 }
 
-a {
+.main{
   color: deeppink;
+    text-decoration: none;
+
 }
+
+.main:hover{
+    text-decoration: underline;
+
+}
+
 
 h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  background-color: aqua;
+  font-style: italic;
 }
 
 p {
@@ -19,6 +27,15 @@ p {
 /* We'll learn about this later on! */
 aside p:last-of-type {
   margin-bottom: 0;
+}
+
+.linkaside{
+  color: black;
+}
+
+.linkaside:hover{
+      text-decoration: none;
+
 }
 
 .pinkbox {

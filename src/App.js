@@ -1,12 +1,17 @@
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
     <article class="recipe">
       <h2>Chicken Vindaloo</h2>
       <p>
-        “Vindaloo” is a popular Indian <a href="https://www.indianhealthyrecipes.com/chicken-vindaloo/">Curry Dish</a> that calls for
-        meat to be marinated in a highly flavorful spicy mixture with vinegar,
-        then quickly cooked up when you’re ready to eat.
+        “Vindaloo” is a popular Indian{" "}
+        <a className="main" href="https://www.indianhealthyrecipes.com/chicken-vindaloo/">
+          Curry Dish
+        </a>{" "}
+        that calls for meat to be marinated in a highly flavorful spicy mixture
+        with vinegar, then quickly cooked up when you’re ready to eat.
       </p>
       <p>
         While this dish has a long list of spices, most are quite common in the
@@ -19,7 +24,9 @@ function App() {
           <strong>
             this recipe is <em>spicy</em>
           </strong>
-          . <a href="https://kitchendreaming.com/chicken-vindaloo/">Click here</a> for an alternative recipe with less heat.
+          .{" "}
+          <a className="linkaside" href="https://kitchendreaming.com/chicken-vindaloo/">Click here</a>{" "}
+          for an alternative recipe with less heat.
         </p>
       </aside>
     </article>
